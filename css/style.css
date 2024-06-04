@@ -41,7 +41,7 @@ main{
 }
 
 #blue-button{
-    background-color: #5fcaff;    
+    background-color: #1fb4ff;    
     padding:5px; 
     border-radius: 5px;
     color: white;
@@ -77,11 +77,76 @@ main{
     line-height: 20px;
 }
 
+.cross-check{
+    display: inline-block;
+    border: 1px solid rgb(217, 25, 25);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: rgb(217, 25, 25);
+    text-align: center;
+    line-height: 20px;
+}
+
 .task-text{
-    font-size: 24px;
+    font-size: 20px;
     padding-left:3px;
 }
 
-.line-space{
-    margin-top: 10px;
+.task{
+    margin-top: 20px;
+}
+
+.task-editorial{
+    background-color: #0c9de6;
+    color: white;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.task-q1-goals{
+    background-color: #9738da;
+    color: white;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.task-recruiting{
+    background-color: #4b9046;
+    color: white;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.task-mobile{
+    background-color: #ff8121;
+    color: white;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.task-website{
+    background-color: #ca0dba;
+    color: white;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+.task-sales{
+    background-color: #afff46;
+    color: white;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius:5px;
+    font-size: 15px;
 }
