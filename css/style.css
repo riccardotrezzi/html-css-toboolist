@@ -29,7 +29,7 @@ h1{
 /*Main*/
 
 main{
-    background-color: #09adff;
+    background-color: #f7f8f9;
     padding: 20px 0;
 }
 
@@ -41,7 +41,7 @@ main{
 }
 
 #blue-button{
-    background-color: #09adff;    
+    background-color: #5fcaff;    
     padding:5px; 
     border-radius: 5px;
     color: white;
@@ -57,11 +57,31 @@ main{
 }
 
 #line{
-    color: rgba(244, 244, 244, 0.883);
+    color: rgba(255, 255, 255, 0.652);
 }
 
 .tasks-container{
     background-color: white;
     padding:20px; 
     border-radius:0px 0px 10px 10px;
+}
+
+.circle-check{
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: green;
+    text-align: center;
+    line-height: 20px;
+}
+
+.task-text{
+    font-size: 24px;
+    padding-left:3px;
+}
+
+.line-space{
+    margin-top: 10px;
 }
