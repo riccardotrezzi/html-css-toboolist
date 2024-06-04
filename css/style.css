@@ -40,11 +40,25 @@ main{
     border-top-right-radius:10px; 
 }
 
-#line{
-    color: rgb(232, 232, 232);
+#blue-button{
+    background-color: #09adff;    
+    padding:5px; 
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
 }
 
+#white-button{
+    background-color: white;
+    padding:5px; 
+    border-radius: 5px; 
+    font-size: 18px;
+    margin-left: 5px;
+}
 
+#line{
+    color: rgba(244, 244, 244, 0.883);
+}
 
 .tasks-container{
     background-color: white;
